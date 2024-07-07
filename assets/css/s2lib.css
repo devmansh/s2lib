@@ -1,4 +1,10 @@
 /*
+
+TemplateMo 565 Onix Digital
+
+https://templatemo.com/tm-565-onix-digital
+
+
 ------------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -140,12 +146,12 @@ body {
 }
 
 ::selection {
-  background: #11ABC1;
+  background: #03a4ed;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #11ABC1;
+  background: #03a4ed;
   color: #fff;
 }
 
@@ -183,11 +189,11 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  color: #11ABC1;
+  color: #03a4ed;
 }
 
 .section-heading h2 span {
-  color: #F5BD02;
+  color: #ff695f;
   font-weight: 700;
   opacity: 1;
   text-transform: capitalize;
@@ -197,13 +203,13 @@ body {
   font-size: 30px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #F5BD02;
+  color: #ff695f;
   opacity: 0.15;
 }
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #11ABC1;
+  background-color: #03a4ed;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -215,7 +221,7 @@ body {
 
 .main-blue-button-hover a {
   display: inline-block;
-  background-color: #11ABC1;
+  background-color: #03a4ed;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -227,12 +233,12 @@ body {
 }
 
 .main-blue-button-hover a:hover {
-  background-color: #F5BD02;
+  background-color: #ff695f;
 }
 
 .main-red-button a {
   display: inline-block;
-  background-color: #F5BD02;
+  background-color: #ff695f;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -244,7 +250,7 @@ body {
 
 .main-red-button-hover a {
   display: inline-block;
-  background-color: #F5BD02;
+  background-color: #ff695f;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -256,7 +262,7 @@ body {
 }
 
 .main-red-button-hover a:hover {
-  background-color: #11ABC1;
+  background-color: #03a4ed;
 }
 
 .main-white-button a {
@@ -264,7 +270,7 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #F5BD02;
+  color: #ff695f;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
@@ -321,7 +327,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 100px;
-  color: #d70e0e;
+  color: #fff;
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
@@ -378,7 +384,7 @@ header
 
 .header-area .main-nav .nav li:last-child .main-red-button-hover a:hover,
 .background-header .main-nav .nav li:last-child .main-red-button-hover a:hover {
-  background-color: #11ABC1 !important;
+  background-color: #03a4ed !important;
 }
 
 .header-area .main-nav .nav li a {
@@ -818,12 +824,12 @@ preloader
     height: 16px;
     top: 12px;
     left: 15px;
-    background: #F5BD02;
+    background: #ff695f;
     border-radius: 50%;
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    -webkit-animation: dot 0.8s infinite;
-    animation: dot 0.8s infinite;
+    -webkit-animation: dot 2.8s infinite;
+    animation: dot 2.8s infinite;
 }
 
 .preloader-inner .dots {
@@ -831,8 +837,8 @@ preloader
     transform: translateX(0);
     margin-top: 12px;
     margin-left: 31px;
-    -webkit-animation: dots 0.8s infinite;
-    animation: dots 0.8s infinite;
+    -webkit-animation: dots 2.8s infinite;
+    animation: dots 2.8s infinite;
 }
 
 .preloader-inner .dots span {
@@ -841,7 +847,7 @@ preloader
     width: 16px;
     height: 16px;
     margin-left: 16px;
-    background: #F5BD02;
+    background: #ff695f;
     border-radius: 50%;
 }
 
@@ -892,7 +898,7 @@ Banner Style
 .main-banner .item h6 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #F5BD02;
+  color: #ff695f;
   margin-bottom: 15px;
 }
 
@@ -904,12 +910,12 @@ Banner Style
 }
 
 .main-banner .item h2 em {
-  color: #11ABC1;
+  color: #03a4ed;
   font-style: normal;
 }
 
 .main-banner .item h2 span {
-  color: #F5BD02;
+  color: #ff695f;
 }
 
 .main-banner .item p {
@@ -935,7 +941,7 @@ Banner Style
 }
 
 .main-banner .item .down-buttons .call-button a {
-  color: #F5BD02;
+  color: #ff695f;
   font-size: 15px;
   font-weight: 500;
   margin-left: 30px;
@@ -975,8 +981,8 @@ Services Style
 .our-services .services-left-dec img {
   width: 387px;
   height: 638px;
-  left: -80px;
-  top: -140px;
+  left: -90px;
+  top: -60px;
   position: absolute;
   z-index: 1;
 }
@@ -996,8 +1002,8 @@ Services Style
 
 .our-services {
   position: relative;
-  margin-top: 0px;
-  padding-top: 20px;
+  margin-top: -50px;
+  padding-top: 120px;
 }
 
 .our-services .section-heading {
@@ -1046,7 +1052,7 @@ Services Style
 .our-services .owl-dots .owl-dot {
   width: 6px;
   height: 6px;
-  background-color: #F5BD02;
+  background-color: #ff695f;
   border-radius: 50%;
   opacity: 0.3;
   margin: 0px 5px;
@@ -1100,7 +1106,7 @@ About
 
 .about-us .fact-item .count-title {
   font-size: 15px;
-  color: #F5BD02;
+  color: #ff695f;
 }
 
 .about-us .fact-item p {
@@ -1223,7 +1229,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-prev span:after {
   width: 46px;
   height: 46px;
-  background-color: #F5BD02;
+  background-color: #ff695f;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1247,7 +1253,7 @@ Portfolio
 .owl-portfolio .owl-nav .owl-next span:after {
   width: 46px;
   height: 46px;
-  background-color: #F5BD02;
+  background-color: #ff695f;
   display: inline-block;
   text-align: center;
   line-height: 46px;
@@ -1267,7 +1273,7 @@ Portfolio
 .owl-portfolio .owl-dots .owl-dot {
   width: 6px;
   height: 6px;
-  background-color: #F5BD02;
+  background-color: #ff695f;
   border-radius: 50%;
   opacity: 0.3;
   margin: 0px 5px;
@@ -1341,7 +1347,7 @@ Pricing
 }
 
 .pricing-tables .item em {
-  color: #F5BD02;
+  color: #ff695f;
   font-size: 15px;
   display: block;
   margin-top: 25px;
@@ -1351,7 +1357,7 @@ Pricing
 
 .pricing-tables .item span {
   font-size: 44px;
-  color: #F5BD02;
+  color: #ff695f;
   font-weight: 700;
   display: block;
   margin-top: -5px;
@@ -1455,7 +1461,7 @@ Subscribe
 
 .subscribe .inner-content form button {
   display: inline-block;
-  background-color: #11ABC1;
+  background-color: #03a4ed;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1471,7 +1477,7 @@ Subscribe
 }
 
 .subscribe .inner-content form button:hover {
-  background-color: #F5BD02;
+  background-color: #ff695f;
 }
 
 
@@ -1610,7 +1616,7 @@ Video
 }
 
 .our-videos .menu .thumb .inner-content {
-  background: #ff685f;
+  background: rgb(255,104,95);
   background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
   border-top-left-radius: 23px;
   border-bottom-right-radius: 23px;
@@ -1688,7 +1694,7 @@ contact
 
 .contact-us .info span {
   opacity: 1;
-  display: block ;
+  display: inline-flex;
   margin-right: 30px;
 }
 
@@ -1699,7 +1705,7 @@ contact
   display: inline-block;
   text-align: center;
   line-height: 46px;
-  background: #ff685f;
+  background: rgb(255,104,95);
   background: linear-gradient(105deg, rgba(255,104,95,1) 0%, rgba(255,144,104,1) 100%);
   border-radius: 50%;
   color: #fff;
@@ -1752,7 +1758,7 @@ form#contact input::placeholder {
 
 form#contact button {
   display: inline-block;
-  background-color: #F5BD02;
+  background-color: #ff695f;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -1766,7 +1772,7 @@ form#contact button {
 }
 
 form#contact button:hover {
-  background-color: #11ABC1;
+  background-color: #03a4ed;
 }
 
 
@@ -1778,7 +1784,7 @@ Footer Style
 
 .footer-dec {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 160px;
 }
 
 footer {
@@ -1816,7 +1822,7 @@ footer .about ul li {
 footer .about ul li a {
   width: 32px;
   height: 32px;
-  background-color: #11ABC1;
+  background-color: #03a4ed;
   color: #fff !important;
   border-radius: 50%;
   text-align: center;
@@ -1826,7 +1832,7 @@ footer .about ul li a {
 }
 
 footer .about ul li a:hover {
-  background-color: #F5BD02;
+  background-color: #ff695f;
 }
 
 footer .footer-item ul li {
@@ -1845,7 +1851,7 @@ footer .footer-item ul li a {
 }
 
 footer .footer-item ul li a:hover {
-  color: #F5BD02;
+  color: #ff695f;
 }
 
 footer .footer-item p {
@@ -1855,7 +1861,7 @@ footer .footer-item p {
 }
 
 footer .footer-item form {
-  background-color: #11ABC1;
+  background-color: #03a4ed;
   height: 46px;
   border-radius: 23px;
   position: relative;
@@ -1895,7 +1901,7 @@ footer .copyright p {
 }
 
 footer .copyright p a {
-  color: #F5BD02;
+  color: #ff695f;
 }
 
 /* 
@@ -1987,7 +1993,7 @@ responsive
     margin-bottom: 15px;
   }
   .main-banner .item .down-buttons .call-button a {
-    margin-left: 0px;
+    margin-left: 10px;
   }
   .subscribe .inner-content:after {
     z-index: -1;
@@ -2000,7 +2006,7 @@ responsive
   }
   .subscribe .inner-content form button {
     width: 100%;
-    background-color: #F5BD02;
+    background-color: #ff695f;
     margin-top: 30px;
   }
   .our-videos ul.nacc li {
